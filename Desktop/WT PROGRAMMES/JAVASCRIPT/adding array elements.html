@@ -1,0 +1,17 @@
+<html>
+<body>
+<h2>javascript arrays</h2>
+<p>The push method appends a new element to an array.</p>
+<button onclick="myfunction()">Try it</button>
+<p id="demo"></p>
+<script>
+var dept=["cse","ece","mech","eee","civil"];
+document.getElementById("demo").innerHTML=dept;
+function myfunction()
+{
+	dept.push("IT");
+	document.getElementById("demo").innerHTML=dept;
+}
+</script>
+</body>
+</html>

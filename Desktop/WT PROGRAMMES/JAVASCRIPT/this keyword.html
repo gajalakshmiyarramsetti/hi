@@ -1,0 +1,16 @@
+<html>
+<body>
+<h2>javascript objects</h2>
+<p>An object is a function definition,stored as a property value.</p>
+<p id="demo"></p>
+<script>
+var person={firstname:"LAKSHMI",lastname:"YARRAMSETTI",ID:"S180316",fullname:function()
+	{
+		return this.firstname+""+this.lastname;
+	}
+};
+document.getElementById("demo").innerHTML=person.fullname();
+			
+</script>
+</body>
+</html>
